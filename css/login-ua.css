@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 1300px;
+}
+header,
+main, footer{
+    width: 1440px;
+    max-width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.login{
+    position: absolute;
+    width: 693px;
+    height: 804px;
+    left: 450px;
+    top: 181px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 75px rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+}
+h1{
+    position: absolute;
+    width: 513px;
+    height: 235px;
+    left: 92px;
+    top: 126px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 91.5%;
+    text-align: center;
+    color: #000000;    
+}
+.login-x{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 597px;
+    top: 51px;    
+}
+.text-login{
+    position: absolute;
+    width: 41px;
+    height: 17px;
+    left: 96px;
+    top: 246px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: #7044CC;
+}
+.input-login{
+    position: absolute;
+    width: 501px;
+    height: 76px;
+    left: 96px;
+    top: 273px;
+    border: 1px solid #7044CC;
+    border-radius: 12px;
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+}
+.text-password{
+    position: absolute;
+    width: 50px;
+    height: 17px;
+    left: 96px;
+    top: 385px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: #7044CC;
+}
+.input-password{
+    position: absolute;
+    width: 501px;
+    height: 76px;
+    left: 96px;
+    top: 412px;    
+    border: 1px solid #7044CC;
+    border-radius: 12px;
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+}
+.login-next{
+    position: absolute;
+    width: 501px;
+    height: 76px;
+    left: 96px;
+    top: 524px;
+    background: #7044CC;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.login-next:hover{
+    transition: 0.5s;
+    background: #cecece;
+    color: #000000;
+}
+.registration{
+    position: absolute;
+    width: 118px;
+    height: 23px;
+    left: 300px;
+    top: 624px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+    text-decoration: underline 3px;
+}
+.registration:hover{
+    color: #7044CC;
+}
